@@ -24,7 +24,7 @@ sudo curl https://sh.rustup.rs -sSf | sh
 #Install nodejs
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
-source $HOME/.zshrc
+. $HOME/.zshrc
 
 nvm use 16
 
@@ -68,7 +68,7 @@ LV_BRANCH='release-1.2/neovim-0.8' curl -s https://raw.githubusercontent.com/lun
 
 echo 'export PATH=$PATH:/home/duc/.local/bin' $HOME/.zshrc
 
-source $HOME/.zshrc
+. $HOME/.zshrc
 
 #ln -s $HOME/.zshrc /root/.zshrc
 
