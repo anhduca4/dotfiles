@@ -1,0 +1,4 @@
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+sudo apt install virtualbox-guest-x11 git -y
+sudo VBoxClient --clipboard
