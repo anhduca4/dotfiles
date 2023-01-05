@@ -32,6 +32,8 @@ exec zsh
 
 . $HOME/.zshrc
 
+nvm install 16
+
 nvm use 16
 
 npm i -g yarn
