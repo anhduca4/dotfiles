@@ -9,6 +9,8 @@ chsh -s $(which zsh)
 
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
+sed -i 's/_zim_fpath/_zim_fpath1/' /root/.zim/init.zsh
+
 #git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 #cat <<EOT >> $HOME/.zshrc
