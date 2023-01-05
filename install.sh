@@ -7,16 +7,16 @@ sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfi
 # Install zimfw
 chsh -s $(which zsh)
 
-#curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
-git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+#git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
-cat <<EOT >> $HOME/.zshrc
-setopt EXTENDED_GLOB
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
-EOT
+#cat <<EOT >> $HOME/.zshrc
+#setopt EXTENDED_GLOB
+#for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+#  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+#done
+#EOT
 
 # Install rust
 sudo curl https://sh.rustup.rs -sSf | sh
