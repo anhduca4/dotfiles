@@ -21,7 +21,7 @@ sed -i 's/_zim_fpath/_zim_fpath1/' /root/.zim/init.zsh
 #EOT
 
 # Install rust
-sudo curl https://sh.rustup.rs -sSf | sh
+sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 
 #Install nodejs
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
