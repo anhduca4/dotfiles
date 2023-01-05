@@ -1,6 +1,6 @@
-#! /usr/bin/env zsh
+#/bin/sh
 
-. $HOME/.zshrc
+nvm install 16
 
 nvm use 16
 
@@ -43,7 +43,3 @@ sudo apt install ./nvim-linux64.deb
 LV_BRANCH='release-1.2/neovim-0.8' curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh | bash
 
 echo 'export PATH=$PATH:/home/duc/.local/bin' $HOME/.zshrc
-
-. $HOME/.zshrc
-
-#ln -s $HOME/.zshrc /root/.zshrc
