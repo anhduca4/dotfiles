@@ -70,5 +70,5 @@ echo 'export PATH=$PATH:/home/duc/.local/bin' $HOME/.zshrc
 
 source $HOME/.zshrc
 
-ln -s $HOME/.zshrc /root/.zshrc
+#ln -s $HOME/.zshrc /root/.zshrc
 
