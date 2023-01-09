@@ -27,10 +27,12 @@ sudo update-desktop-database
 sudo npm i -g alacritty-themes
 
 mkdir -p $HOME/.config/alacritty
+mkdir -p /home/duc/.config/alacritty
 
 cd $HOME/.config/alacritty
 
-wget https://github.com/alacritty/alacritty/releases/download/v0.11.0-rc3/alacritty.yml
+cd /home/duc/alacritty
+cp alacritty.yml /home/duc/.config/alacritty
 
 cd $HOME
 sudo npm i -g alacritty-themes
