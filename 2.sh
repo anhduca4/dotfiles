@@ -26,7 +26,7 @@ sudo update-desktop-database
 
 sudo npm i -g alacritty-themes
 
-mkdir $HOME/.config/alacritty
+mkdir -p $HOME/.config/alacritty
 
 cd $HOME/.config/alacritty
 
