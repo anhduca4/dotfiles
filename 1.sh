@@ -25,5 +25,3 @@ sed -i 's/src)/src)\nfi\n/' /root/.zim/init.zsh
 # Install rust
 sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
 
-#Install nodejs
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
