@@ -54,11 +54,13 @@ $ rm -rf alacritty
 Font https://github.com/huytd/roboplex-font
 
 ```
-wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.deb
-sudo apt update
-sudo apt install ./nvim-linux64.deb
+$ wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.deb
+$ sudo apt update
+$ sudo apt install ./nvim-linux64.deb
 
-LV_BRANCH='release-1.2/neovim-0.8' curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh | bash
+$ LV_BRANCH='release-1.2/neovim-0.8' curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh | bash
 
-echo 'export PATH=$PATH:/home/duc/.local/bin' $HOME/.zshrc
+$ echo 'export PATH=$PATH:/home/duc/.local/bin' $HOME/.zshenv
+$ source .zshenv
 ```
+Done
