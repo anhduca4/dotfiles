@@ -1,9 +1,14 @@
 ## Run by flow
 
 ```
-$ sudo sh ./1.sh
-$ sudo su
+$ sudo add-apt-repository ppa:aslatter/ppa -y
+$ sudo apt install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 python3-pip git zsh curl tmux -y
+
+
+# Install zimfw
 $ chsh -s $(which zsh)
+
+$ curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 ```
 Logout ubuntu
 
